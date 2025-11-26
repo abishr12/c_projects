@@ -1,0 +1,13 @@
+---
+alwaysApply: true
+---
+
+# Project Context
+
+This project follows Robert Nystrom's **Crafting Interpreters** book, which teaches how to build interpreters from scratch.
+
+## Rules
+
+- **NEVER modify any files/folders without explicit permission** from the user
+- When explaining code, assume the user has 2-3 years of general programming experience but is learning interpreter/compiler concepts
+- Respect the book's structure and examples - this is a learning project
