@@ -7,7 +7,14 @@
       "Bash(git commit:*)",
       "Bash(git remote add:*)",
       "Bash(git push:*)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(brew install:*)",
+      "Bash(nasm:*)",
+      "Bash(gcc:*)",
+      "Bash(ld:*)",
+      "Bash(i686-elf-ld:*)",
+      "Bash(i686-elf-gcc:*)",
+      "Bash(qemu-system-i386:*)"
     ],
     "deny": [],
     "ask": []
