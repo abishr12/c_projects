@@ -14,7 +14,16 @@
       "Bash(ld:*)",
       "Bash(i686-elf-ld:*)",
       "Bash(i686-elf-gcc:*)",
-      "Bash(qemu-system-i386:*)"
+      "Bash(qemu-system-i386:*)",
+      "Bash(defaults read:*)",
+      "Bash(hidutil property:*)",
+      "Bash(ioreg:*)",
+      "Bash(fish -c \"bind\" 2>/dev/null | grep -E 'ctrl-\\(h|j|k|l\\)' || echo \"no matches\")",
+      "Bash(tmux list-keys:*)",
+      "Bash(ghostty +list-keybinds 2>/dev/null || echo \"command not available\")",
+      "Bash(tmux display-message:*)",
+      "Bash(find /Users/Adham1/.local/share/nvim/lazy/vim-tmux-navigator -name \"*.vim\" -o -name \"*.lua\" 2>/dev/null | head -10)",
+      "Bash(nvim --server /tmp/nvim.pipe --remote-send ':checktime<CR>' 2>/dev/null; echo \"done\")"
     ],
     "deny": [],
     "ask": []

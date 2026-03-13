@@ -24,8 +24,7 @@ int main(int argc, char *argv[]) {
 		exit(1);
 	}
 
-	char buf[1024];
-	ssize_t n;
+	char buf[1024]
 
 	while ((n = read(STDIN_FILENO, buf, sizeof(buf))) > 0) {
 		ssize_t fdo = write(STDOUT_FILENO, buf, n);

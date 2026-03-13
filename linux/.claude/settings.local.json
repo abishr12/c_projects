@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tmux:*)",
+      "Read(//Users/Adham1/**)",
+      "Bash(nvim:*)"
+    ]
+  }
+}
