@@ -3,7 +3,8 @@
     "allow": [
       "Bash(tmux:*)",
       "Read(//Users/Adham1/**)",
-      "Bash(nvim:*)"
+      "Bash(nvim:*)",
+      "Bash(nvim --server /tmp/nvim.pipe --remote-send ':checktime<CR>' 2>/dev/null; true)"
     ]
   }
 }
