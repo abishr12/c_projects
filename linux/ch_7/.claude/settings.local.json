@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc:*)",
+      "Bash(ls /Users/Adham1/repos/c_projects/linux/tlpi-dist/lib/*.a)",
+      "Bash(ls /Users/Adham1/repos/c_projects/linux/tlpi-dist/lib/*.o)",
+      "Bash(TLPI_LIB=/Users/Adham1/repos/c_projects/linux/tlpi-dist/lib)",
+      "Bash(./free_and_sbrk 10 1024 2>&1)",
+      "Bash(docker run:*)"
+    ]
+  }
+}
