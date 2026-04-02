@@ -4,7 +4,10 @@
       "Bash(tmux:*)",
       "Read(//Users/Adham1/**)",
       "Bash(nvim:*)",
-      "Bash(nvim --server /tmp/nvim.pipe --remote-send ':checktime<CR>' 2>/dev/null; true)"
+      "Bash(nvim --server /tmp/nvim.pipe --remote-send ':checktime<CR>' 2>/dev/null; true)",
+      "Bash(clangd --version)",
+      "Bash(gcc -o longjmp_fail longjmp_fail.c)",
+      "Bash(./longjmp_fail)"
     ]
   }
 }
