@@ -1,3 +1,4 @@
 lisp_in_c/mpc/
 sqlite_db/vendor/bundle
 linux/tlpi-dist/
+.DS_Store
