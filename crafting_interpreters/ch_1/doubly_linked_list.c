@@ -29,6 +29,7 @@ Node *create_node(const char *data) {
     }
     
   new_node->data = (char *)malloc(strlen(data) + 1);
+  
 
   // Second check
   if (new_node->data == NULL) {
@@ -50,7 +51,7 @@ Node *create_node(const char *data) {
 
 DoublyLinkedList *create_list(void) {
   // 1. Allocate memory for the list structure
-  DoublyLinkedList *new_list = malloc(sizeof(*new_list));
+  DoublyLinkedList *new_list = malloc(sizeof(DoublyLinkedList));
 
   // 2. Check if malloc succeeded
   if (new_list == NULL) {
